@@ -10,5 +10,6 @@ class Controller:
     
 
     def run(self, p):
-        self.interpreter.read(path=p)
+        result = self.interpreter.read(path=p)
+        print(result)
         return
